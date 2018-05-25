@@ -1,1 +1,0 @@
-{"version":3,"file":"5.5048da671ae208e2d547.hot-update.js","sources":["webpack:///utilities.js"],"sourcesContent":["\n//converts a Normal String to kebab-case\nexport const convert = (string) => string.split(\" \").join(\"-\").toLowerCase();\n\n\n\n// WEBPACK FOOTER //\n// utilities.js"],"mappings":";;;;;;;;;;;;;;;AACA;AACA;AAAA;AAAA;;;;;;;;;;;;AAAA;;;;;;;;;A","sourceRoot":""}

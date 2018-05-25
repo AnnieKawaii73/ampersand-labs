@@ -15,10 +15,10 @@ export default class AppLayout extends React.Component {
             {page: 'Projects', subs: ['Purplished']},
             {page: 'Join', subs: ['Come Work With Us']},
             {page: 'Team', subs: ['What We Do', 'Who We Are']},
+            {page: 'Blog', subs: ['']},
             {page: 'Contact', subs: ['']},
         ],
     }
-    convert = (string) => string.split(" ").join("-").toLowerCase();
     handleClick = (event) => {
         this.setState({
           current: event.key,
@@ -27,7 +27,7 @@ export default class AppLayout extends React.Component {
     render() {
         let footerLinks = this.state.pages.map((page, i) => {
             return(
-                <Col xs={24} sm={8} md={8} lg={4} xl={4} style={{margin: 'auto', padding:'0.8em'}}>
+                <Col key={i} xs={24} sm={8} md={8} lg={3} xl={3} style={{margin: 'auto', padding:'0.8em'}}>
                     <FooterElement key={i} page={page['page']}>
                      {page['subs']}
                     </FooterElement>
@@ -36,10 +36,10 @@ export default class AppLayout extends React.Component {
             )
         });
         let navbarLinks = this.state.pages.map((page, i) => {
-            if (i<5) {
+            if (i<6) {
                 return(
                     <Menu.Item key={i}>
-                        <Link href={'/'+convert(page['page'])}>{page['page']}</Link>
+                        <Link key={i} href={'/'+convert(page['page'])}>{page['page']}</Link>
                     </Menu.Item>
                 )
             }else{
@@ -47,7 +47,7 @@ export default class AppLayout extends React.Component {
             }
         });
         return(
-            <Layout justify="center">
+            <Layout justify="space-between">
                     <div className="logo" />
                     <Menu
                     theme="light"
