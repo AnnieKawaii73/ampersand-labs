@@ -67,7 +67,7 @@ module.exports =
 /******/ 	__webpack_require__.p = "";
 /******/
 /******/ 	// Load entry module and return exports
-/******/ 	return __webpack_require__(__webpack_require__.s = 4);
+/******/ 	return __webpack_require__(__webpack_require__.s = 6);
 /******/ })
 /************************************************************************/
 /******/ ({
@@ -387,7 +387,7 @@ function (_React$Component) {
 
 /***/ }),
 
-/***/ "./pages/labs/index.js":
+/***/ "./pages/join/come-work-with-us.js":
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -398,7 +398,7 @@ Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__components_AppLayout_AppLayout__ = __webpack_require__("./components/AppLayout/AppLayout.js");
 
 
-var _jsxFileName = "C:\\Users\\arual\\Desktop\\Gits\\ampersand-labs\\pages\\labs\\index.js";
+var _jsxFileName = "C:\\Users\\arual\\Desktop\\Gits\\ampersand-labs\\pages\\join\\come-work-with-us.js";
 
 function _typeof(obj) { if (typeof Symbol === "function" && typeof Symbol.iterator === "symbol") { _typeof = function _typeof(obj) { return typeof obj; }; } else { _typeof = function _typeof(obj) { return obj && typeof Symbol === "function" && obj.constructor === Symbol && obj !== Symbol.prototype ? "symbol" : typeof obj; }; } return _typeof(obj); }
 
@@ -441,12 +441,12 @@ function (_React$Component) {
           fileName: _jsxFileName,
           lineNumber: 8
         }
-      }, "This is Labs!"), __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement("h1", {
+      }, "Come Work With Us."), __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement("p", {
         __source: {
           fileName: _jsxFileName,
           lineNumber: 9
         }
-      }));
+      }, "If you want to join our team, you can contact us by sending an email to: contact@ampersand-labs.com"));
     }
   }]);
 
@@ -471,10 +471,10 @@ var convert = function convert(string) {
 
 /***/ }),
 
-/***/ 4:
+/***/ 6:
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = __webpack_require__("./pages/labs/index.js");
+module.exports = __webpack_require__("./pages/join/come-work-with-us.js");
 
 
 /***/ }),
@@ -522,4 +522,4 @@ module.exports = require("react");
 /***/ })
 
 /******/ });
-//# sourceMappingURL=labs.js.map
+//# sourceMappingURL=come-work-with-us.js.map

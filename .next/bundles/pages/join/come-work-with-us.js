@@ -1,8 +1,8 @@
 module.exports =
 
-        __NEXT_REGISTER_PAGE('/labs', function() {
+        __NEXT_REGISTER_PAGE('/join/come-work-with-us', function() {
           var comp = 
-      webpackJsonp([6],{
+      webpackJsonp([8],{
 
 /***/ "./components/AppLayout/AppLayout.js":
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
@@ -12158,7 +12158,7 @@ module.exports = function(originalModule) {
 
 /***/ }),
 
-/***/ "./pages/labs/index.js":
+/***/ "./pages/join/come-work-with-us.js":
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -12168,7 +12168,7 @@ Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__components_AppLayout_AppLayout__ = __webpack_require__("./components/AppLayout/AppLayout.js");
 
 
-var _jsxFileName = "C:\\Users\\arual\\Desktop\\Gits\\ampersand-labs\\pages\\labs\\index.js";
+var _jsxFileName = "C:\\Users\\arual\\Desktop\\Gits\\ampersand-labs\\pages\\join\\come-work-with-us.js";
 
 (function () {
   var enterModule = __webpack_require__("./node_modules/react-hot-loader/index.js").enterModule;
@@ -12217,12 +12217,12 @@ function (_React$Component) {
           fileName: _jsxFileName,
           lineNumber: 8
         }
-      }, "This is Labs!"), __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement("h1", {
+      }, "Come Work With Us."), __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement("p", {
         __source: {
           fileName: _jsxFileName,
           lineNumber: 9
         }
-      }));
+      }, "If you want to join our team, you can contact us by sending an email to: contact@ampersand-labs.com"));
     }
   }, {
     key: "__reactstandin__regenerateByEval",
@@ -12248,7 +12248,7 @@ function (_React$Component) {
     return;
   }
 
-  reactHotLoader.register(_default, "default", "C:\\Users\\arual\\Desktop\\Gits\\ampersand-labs\\pages\\labs\\index.js");
+  reactHotLoader.register(_default, "default", "C:\\Users\\arual\\Desktop\\Gits\\ampersand-labs\\pages\\join\\come-work-with-us.js");
   leaveModule(module);
 })();
 
@@ -12269,7 +12269,7 @@ function (_React$Component) {
           next.router.update(r, Component)
         }
       }
-    })(typeof __webpack_exports__ !== 'undefined' ? __webpack_exports__.default : (module.exports.default || module.exports), "/labs\\index")
+    })(typeof __webpack_exports__ !== 'undefined' ? __webpack_exports__.default : (module.exports.default || module.exports), "/join\\come-work-with-us")
   
 /* WEBPACK VAR INJECTION */}.call(__webpack_exports__, __webpack_require__("./node_modules/webpack/buildin/harmony-module.js")(module)))
 
@@ -12312,16 +12312,16 @@ var convert = function convert(string) {
 
 /***/ }),
 
-/***/ 5:
+/***/ 7:
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = __webpack_require__("./pages/labs/index.js");
+module.exports = __webpack_require__("./pages/join/come-work-with-us.js");
 
 
 /***/ })
 
-},[5])
+},[7])
           return { page: comp.default }
         })
       ;
-//# sourceMappingURL=labs.js.map
+//# sourceMappingURL=come-work-with-us.js.map
