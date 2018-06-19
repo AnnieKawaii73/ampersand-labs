@@ -18856,7 +18856,7 @@ Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
 
 
 
-var _jsxFileName = "C:\\Users\\arual\\Desktop\\Gits\\ampersand-labs\\pages\\_document.js";
+var _jsxFileName = "C:\\Users\\arual\\Desktop\\LearnDifferent\\pages\\_document.js";
 
 
 (function () {
@@ -18984,7 +18984,7 @@ function (_Document) {
     return;
   }
 
-  reactHotLoader.register(MyDocument, "MyDocument", "C:\\Users\\arual\\Desktop\\Gits\\ampersand-labs\\pages\\_document.js");
+  reactHotLoader.register(MyDocument, "MyDocument", "C:\\Users\\arual\\Desktop\\LearnDifferent\\pages\\_document.js");
   leaveModule(module);
 })();
 

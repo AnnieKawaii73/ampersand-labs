@@ -10,13 +10,9 @@ export default class AppLayout extends React.Component {
     state = {
         current: 'home',
         pages: [
-            {page: 'About', subs: ['The Future', 'The Start']},
-            {page: 'Labs', subs: ['Ed Labs', 'Dev Labs']},
-            {page: 'Projects', subs: ['Purplished']},
-            {page: 'Join', subs: ['Come Work With Us']},
-            {page: 'Team', subs: ['What We Do', 'Who We Are']},
-            {page: 'Blog', subs: ['']},
-            {page: 'Contact', subs: ['']},
+            {page: 'Quiénes Somos', subs: ['']},
+            {page: 'Proyecto', subs: ['Plan de Investigación', 'Preguntas de Investigación', 'Metas de Ingeniería', 'Hipótesis y Resultados Esperados', 'Metodología']},
+            {page: 'Documentación', subs: ['Fase 1', 'Fase 2']},
         ],
     }
     handleClick = (event) => {
@@ -27,7 +23,7 @@ export default class AppLayout extends React.Component {
     render() {
         let footerLinks = this.state.pages.map((page, i) => {
             return(
-                <Col key={i} xs={24} sm={8} md={8} lg={3} xl={3} style={{margin: 'auto', padding:'0.8em'}}>
+                <Col key={i} xs={24} sm={8} md={8} lg={8} xl={8} style={{margin: 'auto', padding:'0.8em'}}>
                     <FooterElement key={i} page={page['page']}>
                      {page['subs']}
                     </FooterElement>
